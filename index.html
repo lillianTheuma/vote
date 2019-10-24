@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2> Get information about voting!</h2>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-text"> User Information </h3>
+        </div> <!-- class = card-header -->
+        <div class="card-body">
+          <form id="ageForm">
+            <div class="form-group">
+              <label for="age">What is your age?</label>
+              <input id="age" class="form-contol" type="text">
+            </div> <!-- class = form-group -->
+            <div class="form-group">
+              <label for="pizza">Is Pineapple an acceptable topping on a pizza?</label>
+              <input id="pizza" class="form-control" type="checkbox">
+            </div> <!-- class = form-group -->
+            <button type="submit" class="btn btn-info" name="button">Vote now!</button>
+          </form> <!-- id = ageForm -->
+        </div> <!-- class = card-body -->
+      </div> <!-- class = card -->
+      <div class="card">
+        <div class="card-header">
+          <h3> Voting Information: </h3>
+        </div> <!-- class = card-header -->
+        <div class="card-body">
+          <p class="card-text" id="heretic"></p>
+        </div> <!-- class = card-body -->
+      </div> <!-- class = card -->
+    </div> <!-- class = container -->
+  </body>
+</html>
